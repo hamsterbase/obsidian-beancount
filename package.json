@@ -1,8 +1,8 @@
 {
-  "name": "obsidian-hamsterbase",
+  "name": "obsidian-beancount",
   "version": "99.99.99",
   "main": "index.js",
-  "repository": "git@github.com:hamsterbase/obsidian-hamsterbase.git",
+  "repository": "git@github.com:hamsterbase/obsidian-beancount.git",
   "author": "monster <monster@hamsterbase.com>",
   "license": "MIT",
   "scripts": {
