@@ -19,3 +19,4 @@ option "operating_currency" "CNY"
        
 
 include "./coffee.bean"
+include "./folder/apple.bean"

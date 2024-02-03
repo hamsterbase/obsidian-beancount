@@ -17,26 +17,28 @@ it('join', async () => {
 
   expect(await parseBeancountMain('main.bean', readFileFunc))
     .toMatchInlineSnapshot(`
-    {
-      "accounts": [
-        "Assets:Bank:Checking",
-        "Assets:Cash",
-        "Expenses:Coffee",
-        "Expenses:Family:Software",
-      ],
-      "currency": [
-        "CNY",
-        "JPY",
-        "USD",
-      ],
-      "files": [
-        "coffee.bean",
-        "main.bean",
-      ],
-      "payee": [
-        "HamsterBase",
-        "starbucks",
-      ],
-    }
-  `);
+      {
+        "accounts": [
+          "Assets:Bank:Checking",
+          "Assets:Cash",
+          "Expenses:Coffee",
+          "Expenses:Family:Software",
+        ],
+        "currency": [
+          "APPL",
+          "CNY",
+          "JPY",
+          "USD",
+        ],
+        "files": [
+          "coffee.bean",
+          "folder/apple.bean",
+          "main.bean",
+        ],
+        "payee": [
+          "HamsterBase",
+          "starbucks",
+        ],
+      }
+    `);
 });
