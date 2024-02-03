@@ -1,5 +1,7 @@
 # obsidian-beancount
 
+[Buy me coffee](https://www.buymeacoffee.com/hamsterbase)
+
 Use Obsidian on the phone for saving transaction to Beancount file.
 
 Supports parsing Beancount files, retrieving Account, Commodity, Payee.
