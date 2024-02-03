@@ -1,0 +1,9 @@
+{
+  "id": "beancount",
+  "name": "Beancount",
+  "mainAppVersion": "0.15.0",
+  "version": "0.1.0",
+  "description": "Save beancount transaction in obsidian",
+  "author": "HamsterBase",
+  "authorUrl": "https://github.com/hamsterbase/obsidian-beancount"
+}
