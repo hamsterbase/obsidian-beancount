@@ -69,7 +69,7 @@ export class ObsidianBeancountPlugin
     }
     let message = `"${description}"`;
     if (payee) {
-      message = `\b"${payee}" "${description}"`;
+      message = `"${payee}" "${description}"`;
     }
     const res = `
     ${date} * ${message}          
