@@ -25,7 +25,12 @@ export class ObsidianBeancountPlugin
           this.settings.main,
           this.readFile
         );
-        new TransactionModal(this.app, data, {}, this.doSave).open();
+        new TransactionModal(
+          this.app,
+          data,
+          this.settings.lastTransaction || {},
+          this.doSave
+        ).open();
       } catch (error) {
         new Notice('Error: ' + error);
       }
